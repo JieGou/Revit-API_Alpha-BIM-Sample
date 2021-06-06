@@ -35,28 +35,80 @@
     <StartProgram>$(ProgramW6432)\Autodesk\Revit 2020\Revit.exe</StartProgram>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RevitAPI">
-      <HintPath>..\..\..\..\..\..\01_ALPHABIM\01_RevitAPI\AlphaBIM\dllsReference\2021\RevitAPI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="AlphaBIMWPF">
+      <HintPath>dllsReference\AlphaBIMWPF.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\..\..\..\01_ALPHABIM\01_RevitAPI\AlphaBIM\dllsReference\2021\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ControlzEx">
+      <HintPath>dllsReference\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>dllsReference\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.ALB">
+      <HintPath>dllsReference\MahApps.Metro.ALB.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks">
+      <HintPath>dllsReference\MahApps.Metro.IconPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors.ALB">
+      <HintPath>dllsReference\MaterialDesignColors.ALB.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf.ALB">
+      <HintPath>dllsReference\MaterialDesignThemes.Wpf.ALB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>dllsReference\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>dllsReference\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>dllsReference\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors">
+      <HintPath>dllsReference\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllsReference\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="RevitAPI">
+      <HintPath>dllsReference\2021\RevitAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>dllsReference\2021\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>dllsReference\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>dllsReference\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="01.ALB_Lib\" />
+    <Folder Include="02.ALB_GEN\" />
+    <Folder Include="03.ALB_ARC\" />
+    <Folder Include="04.ALB_STR\" />
+    <Folder Include="05.ALB_MEP\" />
+    <Folder Include="06.ALB_IFR\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

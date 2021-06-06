@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaBIM", "AlphaBIM.csproj", "{1DCFBE8E-8F0C-42C9-9F73-1B0BD23672A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaBIMWPF", "..\..\..\01_ALPHABIM\01_RevitAPI\AlphaBIMWPF\AlphaBIMWPF.csproj", "{08C76B8F-998F-4FF2-8876-1BB57ECBA800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaBIMWPF", "AlphaBIMWPF\AlphaBIMWPF.csproj", "{08C76B8F-998F-4FF2-8876-1BB57ECBA800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
