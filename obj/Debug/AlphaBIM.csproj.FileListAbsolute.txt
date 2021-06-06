@@ -1,0 +1,5 @@
+D:\04_TRAINING\01_Revit API\05_OpenSource\obj\Debug\AlphaBIM.csproj.CoreCompileInputs.cache
+D:\04_TRAINING\01_Revit API\05_OpenSource\bin\Debug\AlphaBIM_OpenSoureProject.dll
+D:\04_TRAINING\01_Revit API\05_OpenSource\bin\Debug\AlphaBIM_OpenSoureProject.pdb
+D:\04_TRAINING\01_Revit API\05_OpenSource\obj\Debug\AlphaBIM_OpenSoureProject.dll
+D:\04_TRAINING\01_Revit API\05_OpenSource\obj\Debug\AlphaBIM_OpenSoureProject.pdb
