@@ -100,15 +100,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01.ALB_Lib\AlphaBIMConstraint.cs" />
+    <Compile Include="01.ALB_Lib\AssemblyLoader.cs" />
+    <Compile Include="02.ALB_GEN\01.Cmd\GotoViewCmd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="01.ALB_Lib\" />
-    <Folder Include="02.ALB_GEN\" />
-    <Folder Include="03.ALB_ARC\" />
-    <Folder Include="04.ALB_STR\" />
-    <Folder Include="05.ALB_MEP\" />
-    <Folder Include="06.ALB_IFR\" />
+    <Folder Include="03.ALB_ARC\01.Cmd\" />
+    <Folder Include="04.ALB_STR\01.Cmd\" />
+    <Folder Include="05.ALB_MEP\01.Cmd\" />
+    <Folder Include="06.ALB_IFR\01.Cmd\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
