@@ -2,3 +2,8 @@
 *.suo
 *.pdb
 *.baml
+/.vs
+/AlphaBIMWPF/obj
+/obj
+/AlphaBIMWPF/.vs/Supercharger
+/bin/Debug
